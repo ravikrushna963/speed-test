@@ -1,38 +1,90 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-image: linear-gradient(to right, #f2ebfe, #f3eaff, #dac0ff);
+  height: 100vh;
+  padding: 20px;
+}
+
+.bg-container1 {
+  background-image: linear-gradient(to right, #f2ebfe, #f3eaff, #dac0ff);
+  height: 100vh;
+  padding: 20px;
+}
+
+.quote-container {
+  padding: 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #9aa5b1;
+  height: 280px;
+  border-width: 1px;
+  margin: 10px;
+  background-color: #f3eaff;
+}
+
+.heading1 {
+  color: #690cb0;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Bree Serif";
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.para {
+  font-family: "Bree Serif";
+  font-weight: 400;
+  color: #3e4c59;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image {
+  height: 60px;
+  width: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.seconds {
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 17px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #3e4c59;
+}
+
+.text {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #9aa5b1;
+}
+
+.span {
+  font-size: 40px;
+  font-family: "Roboto";
+  color: #323f4b;
+  margin-right: 5px;
+}
+
+.button1 {
+  background-color: #690cb0;
   color: white;
+  font-family: "Roboto";
 }
 
-.App-link {
-  color: #61dafb;
+.button2 {
+  background-color: #ffffff;
+  color: black;
+  font-family: "Roboto";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #3e4c59;
+}
+
+.quoteDisplay {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
 }
